@@ -1,0 +1,37 @@
+body{
+    background-color: antiquewhite;
+}
+.questBox{
+   text-align: center;
+   /* border: 1px solid #F999B7; */
+   margin: 8px;
+}
+label{
+    display: block;
+}
+button{
+    height: 30px;
+    width: 100px;
+    border: 1px solid #F999B7 ;
+    background-color: #F999B7;
+    color: white;
+    border-radius: 3px;
+    cursor:pointer;
+}
+button:hover{
+    background-color: #F2789F;
+}
+input{
+    width: 200px;
+    height: 30px;
+    border: 1px solid white;
+    cursor: pointer;
+}
+form{
+    text-align: center;
+}
+.buttons{
+    display: flex;
+  justify-content: center;
+  gap: 10px;
+}

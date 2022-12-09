@@ -1,0 +1,48 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: #ddd;
+}
+.container{
+    margin: 0 auto;
+}
+.text{
+    text-align: center;
+    padding: 10px;
+}
+h1{
+    color: #EB6440;
+}
+.button{
+    text-align: center;
+    padding: 30px;
+    height: 100px;
+    background-color: white;
+}
+#populationBtn ,
+#languagesBtn{
+    width: 100px;
+    height: 25px;
+    background-color: #EB6440;
+    border: 1px solid  #EB6440;
+    color: white;
+    border-radius: 3px;
+    cursor: pointer;
+}
+.active{
+    display: block;
+}
+/* .Population{
+    display: none;
+} */
+.popSection{
+    display: flex;
+    justify-content: space-around;
+}
+.langSection{
+    display: none;
+}
+

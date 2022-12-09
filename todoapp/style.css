@@ -1,0 +1,32 @@
+body{
+    background-color: #F4EAD5 ;
+}
+li{
+    list-style-type: none;
+}
+input{
+    width: 200px;
+    height: 45px;
+    border-radius: 3px;
+    background-color: #e0c8c5;
+    border: 1px solid #F5EBE0;
+    color: black;
+}
+#addBtn{
+    width: 50px;
+    height: 45px;
+}
+#deleteBtn{
+    width: 50px;
+    height: 45px;
+}
+
+.editBtn{
+    display: none;
+}
+.delBtn{
+    display: none;
+}
+.active{
+    display: block;
+}
